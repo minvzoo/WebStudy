@@ -1,0 +1,136 @@
+@import url("/assets/css/reset.css");
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#header .topMenu{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+#header .topMenu .leftMenu img{
+    width: 10vw;
+}
+
+#header .topMenu .searchTab{
+    margin: 12px 0px 12px 0px;
+    border-bottom: 1px solid black;
+}
+
+#header .topMenu .searchTab a{
+    font-size: 12px;
+}
+
+#header .topMenu .searchTab img{
+    width: 20px;
+}
+
+#header .topMenu .rightMenu{
+    display: flex;
+    margin-top: 2vh;
+}
+
+#header .topMenu .rightMenu a{
+    margin-right: 20px;
+    font-size: 12px;
+}
+
+#header .topMenu .rightMenu select{
+    font-size: 12px;
+    color: dimgray;
+    border-radius: 15px;
+    padding: 5px 3px 5px 3px;
+}
+
+#header .gnb ul{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#header .gnb ul li{
+    margin-left: 20px;
+}
+
+#header .gnb ul li a{
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 0;
+    position: relative;
+}
+
+#header .gnb ul li a:after{
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: black;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+#header .gnb ul li a:hover::after{
+    width: 100%;
+    left: 0;
+}
+
+.slider{
+    margin-top: 12px;
+    margin-bottom: 50px;
+    height: 400px;
+}
+
+.slider img{
+    position: absolute;
+    right: 0%;
+    width: 1920px;
+    height: 400px;
+}
+
+.quickMenu ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.quickMenu ul li{
+    width: 400px;
+    height: 200px;
+}
+
+.quickMenu ul #dilivery a{
+    font-size: 40px;
+    color: red;
+}
+
+.quickMenu ul #to_go a{
+    font-size: 40px;
+    color: blue;
+}
+
+.quickMenu ul #quickOrder a{
+    font-size: 40px;
+}
+
+.quickMenu ul li p{
+    padding-top: 20px;
+    color: dimgray;
+}
+
+.quickMenu ul li a img{
+    width: 50px;
+}
+
+
+
+
+
+
