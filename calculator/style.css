@@ -1,0 +1,23 @@
+@import "./reset.css";
+
+.container{
+    width: 340px;
+    background-color: darkgray;
+}
+
+.display{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 300px;
+    height: 40px;
+    background-color: white;
+}
+
+.buttons button{
+    margin-bottom: 5px;
+    width: 80px;
+    height: 80px;
+    font-size: 35px;
+}
